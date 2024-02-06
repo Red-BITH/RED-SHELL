@@ -21,6 +21,13 @@
 
 **infog - infogather**
 
+**install - bir dosya y; indiriri (wget) ornek (install + url)**
+
+**saka - mizah yapar(bok gbi)**
+
+**nmap - nmap taraması**
+
+
 # TOKEN AKTIFLESTIRDIKTEN SONRA:
 **showgui - token etkin ise gui ekrani açılır.**
 *(yapim asamasinda)*
