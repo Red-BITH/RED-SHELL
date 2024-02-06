@@ -26,4 +26,4 @@
 *(yapim asamasinda)*
 
 # POWERED BY REDBITH
-![Octocat](https://cyberdark.org/data/avatars/m/0/67.jpg?1699895121)
+<img src="https://cyberdark.org/data/avatars/m/0/67.jpg?1699895121" width="50" height="50">
