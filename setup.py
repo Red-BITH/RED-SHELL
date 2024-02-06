@@ -1,4 +1,5 @@
 import os
+import time
 def ascii():
     print("""\033[31m
 
@@ -39,3 +40,4 @@ if os.name == 'posix':
     os.system('cls')
     ascii()
 print("\033[31mSETUP COMPLETET! (SETUP TAMAMLANDI!)")
+time.sleep(2)
