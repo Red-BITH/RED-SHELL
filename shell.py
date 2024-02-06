@@ -2,7 +2,6 @@ import subprocess
 import socket
 import random
 import os
-import tkinter as tk
 
 def check_gui_file():
     gui_file_path = os.path.join("shl", "gui.txt")
@@ -12,21 +11,6 @@ def create_gui_file():
     gui_file_path = os.path.join("shl", "gui.txt")
     with open(gui_file_path, 'w') as gui_file:
         gui_file.write("This is a GUI file created by the shell.")
-
-def show_gui():
-    gui_file_path = os.path.join("shl", "gui.txt")
-    if os.path.exists(gui_file_path):
-        with open(gui_file_path, 'r') as gui_file:
-            content = gui_file.read()
-
-        root = tk.Tk()
-        root.title("GUI Content")
-        text_widget = tk.Text(root)
-        text_widget.insert(tk.END, content)
-        text_widget.pack()
-        root.mainloop()
-    else:
-        print("Hata: GUI dosyası bulunamadı. Lütfen önce bir GUI dosyası oluşturun.")
 
 if os.name == 'posix':
     os.system('clear')
