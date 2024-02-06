@@ -420,7 +420,7 @@ def clear_console():
 
 if __name__ == "__main__":
     print("Merhaba! Lütfen bir komut yazın.")
-    print("\033[31m(komutlar için: https://github.com/Red_BITH/TCWBF-TOOL/shl/commands.txt)")
+    print("\033[31m(komutlar için: https://github.com/Red_BITH/RED-SHELL/README.md)")
     
     command_history = []
     current_index = 0
