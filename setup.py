@@ -36,7 +36,7 @@ if os.name == 'posix':
 
 
   """)
-  elif os.name == 'nt':
+elif os.name == 'nt':
     os.system('cls')
     ascii()
 print("\033[31mSETUP COMPLETET! (SETUP TAMAMLANDI!)")
